@@ -70,5 +70,5 @@ function PriceCalculator (){
 		{
 				price=price+(kilometrage*4.00);}
 			
-		document.getElementById('Price').value=price.toPrecision(3);
+		document.getElementById('Price').value=price.toFixed(3);
 }
