@@ -41,17 +41,22 @@ function locationChangeHandler(autoc,autoc1){
    
 }
 (function($){
-    $("#dep-date").datetimepicker({
+      
+    $("#from-date-picker").datetimepicker({
+        
+        controlType: 'select',
+        oneLine: true,
+        timeFormat: 'HH:mm', 
         onClose: function(dateText) {
             PriceCalculator();
-        }
+        },
+        
     });
+  
 })(jQuery);
 
-
-
 function PriceCalculator (){
-    let dateText= document.getElementById('dep-date').value;
+    let dateText= document.getElementById('from-date-picker').value;
     
     let kilometrage=document.getElementById('Kilometrage').value;
         if(kilometrage==="" || dateText==="")

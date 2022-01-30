@@ -21,11 +21,11 @@
 
 			// DATE & TIME PICKER
 			$('#dep-date,#ret-date').datetimepicker({
-				showMillisec: false,
+				showMillisec: true,
 				showMicrosec: false,
 				showTimezone: false,
 				numberOfMonths: 1,
-				addSliderAccess: true, 
+				addSliderAccess: false, 
 				sliderAccessArgs: { touchonly: false }                
 				});
 		}
