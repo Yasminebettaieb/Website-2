@@ -169,7 +169,9 @@ h6 {font-size:17px;text-transform:uppercase;padding:0 0 23px;}
 .home .main 				{padding:0;}
 .home .advanced-search 	{margin:0;}
 
-.intro 					{background:url(../images/uploads/keyvisual.jpg) 50% 0 fixed no-repeat;height:100vh;overflow:hidden;float:left;width:100%;display:block;min-height:768px;}
+.intro 					{background:url(../images/uploads/keyvisual.jpg) 100% 0 fixed no-repeat;height:100vh;overflow:hidden;float:left;width:100%;display:block;min-height:768px;
+
+}
 .intro .textwidget		{color:#fff;padding-top:24%;text-align:center;}
 .intro .textwidget h1 	{text-transform:uppercase;font-size:61px;margin:0 0 -5px;}
 .intro .textwidget h2 	{text-transform:uppercase;font-size:23px;margin:0;}
@@ -232,7 +234,7 @@ h6 {font-size:17px;text-transform:uppercase;padding:0 0 23px;}
 .ui-datepicker td								{text-align:center;padding:0 !important;border:1px solid #dfdfd0 !important;}
 .ui-datepicker td	a,
 .ui-datepicker td	span 					{text-align:center;border:none !important;padding:6px !important;}
-.ui-datepicker-buttonpane button {font-size:13px;padding:5px;margin:9px 0 5px;background:#cc2262 !important;color:#fff !important;border-color:#cc2262 !important;}
+.ui-datepicker-buttonpane button {font-size:13px;padding:5px;margin:9px 0 5px;background:#ffc926 !important;color:#fff !important;border-color:#ffc926 !important;}
 .ui-datepicker	{z-index:99999 !important;}
 .ui-datepicker .ui-button {background:#191F26 !important;border:none !important;}
 .ui-widget .ui-slider-handle				{background:#191f26;border-color:#191f26;}
