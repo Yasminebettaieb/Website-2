@@ -41,7 +41,10 @@ img,fieldset,abbr,acronym{border:0;}
 article,aside,figure,figcaption,hgroup,footer,header,nav,section,video,object{display:block;}
 audio,canvas,progress,video {display: inline-block;vertical-align: baseline;}
 
-img 			{border:0;max-width:100%;vertical-align:middle; height: 60px;}
+img 			{border:0;max-width:100%;vertical-align:middle; }
+.imglogo {border:0;max-width:100%;vertical-align:middle; height: 60px;
+
+}
 figure		{position:relative;}
 figure img 	{display:block;}
 
