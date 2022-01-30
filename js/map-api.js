@@ -58,17 +58,19 @@ function PriceCalculator (){
         {return ;};
     kilometrage=parseFloat(kilometrage);
     let d=new Date(dateText);
-		console.log(d.getHours());
-		console.log(d.getMinutes());
-		let price=6.60;
 		
-        
-		if(d.getHours()>=6 && d.getHours()<20)
+		let price=6.60;
+       
+		
+         console.log(d.getDay());
+		if(d.getHours()>=6 && d.getHours()<20 && d.getDay()!=0)
 		{       
 				price=price+(kilometrage*3.20);}
-		else
-		{
-				price=price+(kilometrage*4.00);}
+	   
+        else
+        {
+            price=price+(kilometrage*4.00);
+        }
 			
 		document.getElementById('Price').value=price.toFixed(3);
 }
