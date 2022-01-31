@@ -170,7 +170,7 @@ h6 {font-size:17px;text-transform:uppercase;padding:0 0 23px;}
 .home .advanced-search 	{margin:0;}
 
 .intro 					{background:url(../images/uploads/keyvisual.jpg) 50% 0 fixed no-repeat;height:100vh;overflow:hidden;float:right;display:block;min-height:100%; min-width:100%;background-size:  cover; opacity: 0.4;}
-.intro .textwidget		{color:#fff;padding-top:19%;text-align:center;}
+.intro .textwidget		{color:#fff;padding-top:15% !important;text-align:center;}
 .intro .textwidget h1 	{text-transform:uppercase;font-size:61px;margin:0 0 -5px;}
 .intro .textwidget h2 	{text-transform:uppercase;font-size:23px;margin:0;}
 .intro .actions			{margin:6px 0 0;padding:46px 0 0;background:url(../images/separator.jpg) 50% 0 no-repeat;border:none;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;}
@@ -190,9 +190,9 @@ h6 {font-size:17px;text-transform:uppercase;padding:0 0 23px;}
 .partners h2	{text-transform:uppercase;font-size:30px;padding:0 0 40px;}
 
 .testimonials 			{float:right;width:100%;background:url(../images/uploads/My_taxi_photo.png) ;
-	background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;}
+	min-width: 100%;
+    height:350px; object-fit: cover;
+	margin-bottom: 30px; background-size: cover;}
 .testimonials h6			{text-transform:uppercase;position:relative;font-size:39px;color:#fff;}
 .testimonials h6:before	{content:"";width:41px;height:29px;left:auto !important;right:-16px !important;}
 .testimonials p 			{padding:0 20% 30px;font-size:16px;font-weight:500;color:#fff;}

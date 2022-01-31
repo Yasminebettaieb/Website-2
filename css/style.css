@@ -178,10 +178,10 @@ h6 {font-size:17px;text-transform:uppercase;padding:0 0 23px;}
 .home .main 				{padding:0;}
 .home .advanced-search 	{margin:0;}
 
-.intro 					{background:url(../images/uploads/keyvisual.jpg) 100% 0 fixed no-repeat;height:100vh;overflow:hidden;float:left;width:100%;display:block;min-height:868px;
-
+.intro 					{background:url(../images/uploads/keyvisual.jpg) 100% 0 fixed no-repeat;height:100vh;overflow:hidden;float:left;min-width:100%;display:block;min-height:968px;
+background-size: cover;
 }
-.intro .textwidget		{color:#fff;padding-top:24%;text-align:center;}
+.intro .textwidget		{color:#fff;padding-top:15%;text-align:center;}
 .intro .textwidget h1 	{text-transform:uppercase;font-size:61px;margin:0 0 -5px;}
 .intro .textwidget h2 	{text-transform:uppercase;font-size:23px;margin:0;}
 .intro .actions			{margin:6px 0 0;padding:46px 0 0;background:url(../images/separator.jpg) 50% 0 no-repeat;border:none;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;}
@@ -200,10 +200,16 @@ h6 {font-size:17px;text-transform:uppercase;padding:0 0 23px;}
 .partners 	{float:left;width:100%;padding:48px 0 30px;}
 .partners h2	{text-transform:uppercase;font-size:30px;padding:0 0 40px;}
 
-.testimonials 			{float:left;width:100%;background:url(../images/uploads/7.jpeg) no-repeat center center fixed;overflow:hidden;color:#fff;padding:90px 0 70px; background-blend-mode: lighten;
+.testimonials 			{float:left;width:100%;background:url(../images/uploads/6.jpg) no-repeat center center fixed;overflow:hidden;color:#fff;padding:90px 0 70px; background-blend-mode: lighten;
     background-size: cover;
 }
-
+.visa{
+	height: 55px;
+	width: 300px;
+}
+.twint{
+	height: 50px;
+}
 
 .testimonials h6			{text-transform:uppercase;position:relative;font-size:39px;color:#fff;}
 .testimonials h6:before	{content:"";width:41px;height:29px;}
@@ -1021,7 +1027,7 @@ div.radio input 						{opacity: 0;filter: alpha(opacity=0);-moz-opacity: 0;borde
 .footer article 			{padding:35px 15px 20px;margin:0;border-bottom:1px solid rgba(0,0,0,.5);-webkit-box-shadow:0 1px 0 rgba(255,255,255,.07);-moz-box-shadow:0 1px 0 rgba(255,255,255,.07);box-shadow:0 1px 0 rgba(255,255,255,.07);}
 
 .animated {-webkit-animation-duration: 0s;animation-duration: 0s;}
-.intro .textwidget 				{padding-top:40%;}
+.intro .textwidget 				{padding-top:30%;}
 
 .gmap {height:200px;}
 .alb{     float: left;
