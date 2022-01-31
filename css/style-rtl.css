@@ -189,7 +189,10 @@ h6 {font-size:17px;text-transform:uppercase;padding:0 0 23px;}
 .partners 	{float:right;width:100%;padding:48px 0 30px;}
 .partners h2	{text-transform:uppercase;font-size:30px;padding:0 0 40px;}
 
-.testimonials 			{float:right;width:100%;background:url(../images/testimonials.png) 50% 100% no-repeat;overflow:hidden;color:#fff;padding:90px 0 70px;}
+.testimonials 			{float:right;width:100%;background:url(../images/uploads/My_taxi_photo.png) ;
+	background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;}
 .testimonials h6			{text-transform:uppercase;position:relative;font-size:39px;color:#fff;}
 .testimonials h6:before	{content:"";width:41px;height:29px;left:auto !important;right:-16px !important;}
 .testimonials p 			{padding:0 20% 30px;font-size:16px;font-weight:500;color:#fff;}
