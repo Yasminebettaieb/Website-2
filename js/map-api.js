@@ -41,7 +41,8 @@ function locationChangeHandler(autoc,autoc1){
    
 }
 (function($){
-      
+    
+
     $("#from-date-picker").datetimepicker({
         
         controlType: 'select',
@@ -49,9 +50,10 @@ function locationChangeHandler(autoc,autoc1){
         timeFormat: 'HH:mm', 
         onClose: function(dateText) {
             PriceCalculator();
-        },
+        }
         
     });
+ 
   
 })(jQuery);
 
