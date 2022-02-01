@@ -212,6 +212,8 @@ h6 {font-size:17px;text-transform:uppercase;padding:0 0 23px;}
 	width: 300px;
 }
 .twint{
+	margin-top: 11px;
+
 	height: 50px;
 }
 
@@ -237,7 +239,7 @@ h6 {font-size:17px;text-transform:uppercase;padding:0 0 23px;}
 .advanced-search .form-group .radio span 			{border-color:#fff;}
 .advanced-search .right 	{width:23%;}
 .advanced-search .btn 	{width:100%;}
-
+div{padding: 0;}
 .form-group div.selector					{border-color:#fff;height:47px;line-height:46px;color:#191F26;}
 .form-group div.selector:focus			{border-color:#fff;}
 .form-group div.selector span				{height:47px;line-height:46px;}
@@ -951,6 +953,8 @@ div.radio input 						{opacity: 0;filter: alpha(opacity=0);-moz-opacity: 0;borde
 	width: 200px;
 }
 .twint{
+	margin-top: 12px;
+
 	height: 40px;
 }
 .full-width, 	 	
@@ -1045,6 +1049,8 @@ div.radio input 						{opacity: 0;filter: alpha(opacity=0);-moz-opacity: 0;borde
 	width: 200px;
 }
 .twint{
+	margin-top: 12px;
+
 	height: 40px;
 }
 .gmap {height:200px;}
@@ -1069,6 +1075,8 @@ div.radio input 						{opacity: 0;filter: alpha(opacity=0);-moz-opacity: 0;borde
 	width: 200px;
 }
 .twint{
+	margin-top: 12px;
+
 	height: 35px;
 }
 .twoway .wrap div 				{width:100%;padding:0 0 15px;margin:0 0 20px;border-bottom:1px solid rgba(0,0,0,.15);-webkit-box-shadow:0 1px 0 rgba(255,255,255,.3);-moz-box-shadow:0 1px 0 rgba(255,255,255,.3);box-shadow:0 1px 0 rgba(255,255,255,.3);}
@@ -1086,6 +1094,8 @@ div.radio input 						{opacity: 0;filter: alpha(opacity=0);-moz-opacity: 0;borde
 	width: 200px;
 }
 .twint{
+	margin-top: 12px;
+
 	height: 30px;
 }
 .gmap {height:150px;}
@@ -1099,6 +1109,7 @@ div.radio input 						{opacity: 0;filter: alpha(opacity=0);-moz-opacity: 0;borde
 	width: 200px;
 }
 .twint{
+	margin-top: 12px;
 	height: 30px;
 }
 .xdsoft_datetimepicker 		{padding-right:0;max-width:100%;}
