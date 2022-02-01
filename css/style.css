@@ -940,7 +940,13 @@ div.radio input 						{opacity: 0;filter: alpha(opacity=0);-moz-opacity: 0;borde
 
 @media screen and (max-width: 980px) {
 .wrap {width:92%;}
-
+.visa{
+	height: 45px;
+	width: 200px;
+}
+.twint{
+	height: 40px;
+}
 .full-width, 	 	
 .three-fourth, 	
 .one-half,		
@@ -1028,7 +1034,13 @@ div.radio input 						{opacity: 0;filter: alpha(opacity=0);-moz-opacity: 0;borde
 
 .animated {-webkit-animation-duration: 0s;animation-duration: 0s;}
 .intro .textwidget 				{padding-top:30%;}
-
+.visa{
+	height: 35px;
+	width: 100px;
+}
+.twint{
+	height: 30px;
+}
 .gmap {height:200px;}
 .alb{     float: left;
 	min-width: 100%;
@@ -1046,7 +1058,13 @@ div.radio input 						{opacity: 0;filter: alpha(opacity=0);-moz-opacity: 0;borde
 .readonly .one-fourth,
 .readonly .three-fourth			{width:100%;}
 .readonly .one-fourth 			{padding-bottom:0;}
-
+.visa{
+	height: 25px;
+	width: 200px;
+}
+.twint{
+	height: 25px;
+}
 .twoway .wrap div 				{width:100%;padding:0 0 15px;margin:0 0 20px;border-bottom:1px solid rgba(0,0,0,.15);-webkit-box-shadow:0 1px 0 rgba(255,255,255,.3);-moz-box-shadow:0 1px 0 rgba(255,255,255,.3);box-shadow:0 1px 0 rgba(255,255,255,.3);}
 .twoway .wrap div:last-child 		{padding:0;margin:0;border:none;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;}
 }
@@ -1057,14 +1075,26 @@ div.radio input 						{opacity: 0;filter: alpha(opacity=0);-moz-opacity: 0;borde
 .intro .textwidget h2 {font-size:17px;}
 .intro .btn.large	{font-size:14px;width:46%;margin:0 1%;}
 .advanced-search .form-group.spinner input {width:100%;}
-
+.visa{
+	height: 25px;
+	width: 100px;
+}
+.twint{
+	height: 30px;
+}
 .gmap {height:150px;}
 }
 
 @media screen and (max-width: 400px) {
 .intro .textwidget h1 {font-size:40px;}
 .intro .btn.large	{width:100%;margin:0 0 15px;}
-
+.visa{
+	height: 25px;
+	width: 100px;
+}
+.twint{
+	height: 20px;
+}
 .xdsoft_datetimepicker 		{padding-right:0;max-width:100%;}
 .xdsoft_datetimepicker .xdsoft_datepicker	{margin:0;width:100%;}
 .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box {height:116px;}
