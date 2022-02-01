@@ -50,6 +50,7 @@ img 			{border:0;max-width:100%;vertical-align:middle; }
      object-fit: cover;
 	margin-bottom: 30px;
 
+	
  }
 figure		{position:relative;}
 figure img 	{display:block;}
@@ -178,8 +179,10 @@ h6 {font-size:17px;text-transform:uppercase;padding:0 0 23px;}
 .home .main 				{padding:0;}
 .home .advanced-search 	{margin:0;}
 
-.intro 					{background:url(../images/uploads/keyvisual.jpg) 100% 0 fixed no-repeat;height:100vh;overflow:hidden;float:left;min-width:100%;display:block;min-height:968px;
+.intro 					{background:url(../images/uploads/keyvisual.jpg) 100% 0 fixed no-repeat;
+	height:100vh;overflow:hidden;float:left;min-width:100%;display:block;
 background-size: cover;
+
 }
 .intro .textwidget		{color:#fff;padding-top:15%;text-align:center;}
 .intro .textwidget h1 	{text-transform:uppercase;font-size:61px;margin:0 0 -5px;}
@@ -1048,6 +1051,11 @@ div.radio input 						{opacity: 0;filter: alpha(opacity=0);-moz-opacity: 0;borde
 	margin-bottom: 30px;
 
  }
+ .intro 					{background:url(../images/uploads/keyvisual.jpg) 100% 0 fixed no-repeat;
+	height:100vh;overflow:hidden;float:left;min-width:100%;display:block;
+background-size: cover;
+
+}
 .preloader	{display:none;}
 }
 
@@ -1061,6 +1069,11 @@ div.radio input 						{opacity: 0;filter: alpha(opacity=0);-moz-opacity: 0;borde
 .visa{
 	height: 25px;
 	width: 200px;
+}
+.intro 					{background:url(../images/uploads/keyvisual1.jpg) 100% 0 fixed no-repeat;
+	height:100vh;overflow:hidden;float:left;min-width:100%;display:block;
+background-size: cover;
+
 }
 .twint{
 	height: 25px;
@@ -1079,6 +1092,11 @@ div.radio input 						{opacity: 0;filter: alpha(opacity=0);-moz-opacity: 0;borde
 	height: 25px;
 	width: 100px;
 }
+.intro 					{background:url(../images/uploads/keyvisual1.jpg) 100% 0 fixed no-repeat;
+	height:100vh;overflow:hidden;float:left;min-width:100%;display:block;
+background-size: cover;
+
+}
 .twint{
 	height: 30px;
 }
@@ -1091,6 +1109,11 @@ div.radio input 						{opacity: 0;filter: alpha(opacity=0);-moz-opacity: 0;borde
 .visa{
 	height: 25px;
 	width: 100px;
+}
+.intro 					{background:url(../images/uploads/keyvisual1.jpg) 100% 0 fixed no-repeat;
+	height:100vh;overflow:hidden;float:left;min-width:100%;display:block;
+background-size: cover;
+
 }
 .twint{
 	height: 20px;
