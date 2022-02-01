@@ -42,6 +42,7 @@ function locationChangeHandler(autoc,autoc1){
 }
 (function($){
     
+    
 
     $("#from-date-picker").datetimepicker({
         
@@ -52,7 +53,7 @@ function locationChangeHandler(autoc,autoc1){
             PriceCalculator();
         }
         
-    });
+    }).setLocale('fr'); 
  
   
 })(jQuery);
