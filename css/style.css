@@ -199,8 +199,13 @@ h6 {font-size:17px;text-transform:uppercase;padding:0 0 23px;}
 .partners 	{float:left;width:100%;padding:48px 0 30px;}
 .partners h2	{text-transform:uppercase;font-size:30px;padding:0 0 40px;}
 
-.testimonials 			{float:left;width:100%;background:url(../images/uploads/6.jpg) no-repeat center center fixed;overflow:hidden;color:#fff;padding:90px 0 70px; background-blend-mode: lighten;
-    background-size: cover;
+		.testimonials 			{float:right;width:100%;background:url(../images/uploads/téléchargement.png) no-repeat center center fixed; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+   background-attachment: scroll;
+   height:50vh;
 }
 .visa{
 	height: 55px;
@@ -1036,11 +1041,11 @@ div.radio input 						{opacity: 0;filter: alpha(opacity=0);-moz-opacity: 0;borde
 .animated {-webkit-animation-duration: 0s;animation-duration: 0s;}
 .intro .textwidget 				{padding-top:30%;}
 .visa{
-	height: 35px;
-	width: 100px;
+	height: 45px;
+	width: 200px;
 }
 .twint{
-	height: 30px;
+	height: 40px;
 }
 .gmap {height:200px;}
 .alb{     float: left;
@@ -1060,11 +1065,11 @@ div.radio input 						{opacity: 0;filter: alpha(opacity=0);-moz-opacity: 0;borde
 .readonly .three-fourth			{width:100%;}
 .readonly .one-fourth 			{padding-bottom:0;}
 .visa{
-	height: 25px;
+	height: 35px;
 	width: 200px;
 }
 .twint{
-	height: 25px;
+	height: 35px;
 }
 .twoway .wrap div 				{width:100%;padding:0 0 15px;margin:0 0 20px;border-bottom:1px solid rgba(0,0,0,.15);-webkit-box-shadow:0 1px 0 rgba(255,255,255,.3);-moz-box-shadow:0 1px 0 rgba(255,255,255,.3);box-shadow:0 1px 0 rgba(255,255,255,.3);}
 .twoway .wrap div:last-child 		{padding:0;margin:0;border:none;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;}
@@ -1077,8 +1082,8 @@ div.radio input 						{opacity: 0;filter: alpha(opacity=0);-moz-opacity: 0;borde
 .intro .btn.large	{font-size:14px;width:46%;margin:0 1%;}
 .advanced-search .form-group.spinner input {width:100%;}
 .visa{
-	height: 25px;
-	width: 100px;
+	height: 35px;
+	width: 200px;
 }
 .twint{
 	height: 30px;
@@ -1090,11 +1095,11 @@ div.radio input 						{opacity: 0;filter: alpha(opacity=0);-moz-opacity: 0;borde
 .intro .textwidget h1 {font-size:40px;}
 .intro .btn.large	{width:100%;margin:0 0 15px;}
 .visa{
-	height: 25px;
-	width: 100px;
+	height: 35px;
+	width: 200px;
 }
 .twint{
-	height: 20px;
+	height: 30px;
 }
 .xdsoft_datetimepicker 		{padding-right:0;max-width:100%;}
 .xdsoft_datetimepicker .xdsoft_datepicker	{margin:0;width:100%;}
