@@ -43,6 +43,10 @@ audio,canvas,progress,video {display: inline-block;vertical-align: baseline;}
 
 img 			{border:0;max-width:100%;vertical-align:middle; }
 .imglogo {border:0;max-width:100%;vertical-align:middle; height: 60px;}
+.imglogo1 {border:0;max-width:100%;vertical-align:middle; height: 200px;   margin-top: 15%;
+    padding-right:17px;
+}
+
  .alb{     float: left;
 	min-width: 100%;
 	max-width: 100%;
@@ -104,7 +108,7 @@ h6 {font-size:17px;text-transform:uppercase;padding:0 0 23px;}
 
 .full-width 	 	{float:left;width:100%;padding:0 15px 30px;max-width:100%;}
 .three-fourth 	{float:left;width:75%;padding:0 15px 30px;max-width:100%;}
-.one-half		{float:left;width:50%;padding:0 15px 30px;max-width:100%;}
+.one-half		{float:left;width:40%;padding:0 15px 30px;max-width:100%;}
 .one-third 		{float:left;width:33.33%;padding:0 15px 30px;max-width:100%;}
 .two-third 		{float:left;width:66.66%;padding:0 15px 30px;max-width:100%;}
 .one-fourth 		{float:left;width:25%;padding:0 15px 30px;max-width:100%;}
@@ -143,6 +147,9 @@ h6 {font-size:17px;text-transform:uppercase;padding:0 0 23px;}
 .circle .icon {color:#34394A;}
 
 /* 08 HEADER */
+.experience {
+	font-family: DIN; margin-top: 10px; font-size: xx-large; padding: 5px;
+}
 .header 				{float:left;width:100%;background:#fff;height:75px; }
 .header > .wrap		{display:table;height:80px;}
 .logo					{display:table-cell;vertical-align:middle;padding:8px 0;}
@@ -180,8 +187,8 @@ h6 {font-size:17px;text-transform:uppercase;padding:0 0 23px;}
 .home .advanced-search 	{margin:0;}
 
 .intro 					{background:url(../images/uploads/keyvisual.jpg) 50% 0 fixed no-repeat;height:100vh;overflow:hidden;float:left;width:100%;display:block;min-height:768px; background-size: cover;  background-attachment: scroll;}
-.intro .textwidget		{color:#fff;padding-top:24%;text-align:center;}
-.intro .textwidget h1 	{text-transform:uppercase;font-size:61px;margin:0 0 -5px;}
+.intro .textwidget		{color:#fff;padding-top:0%;text-align:center;}
+.intro .textwidget h1 	{text-transform:uppercase;font-size:60px;margin:0 0 -5px;}
 .intro .textwidget h2 	{text-transform:uppercase;font-size:23px;margin:0;}
 .intro .actions			{margin:6px 0 0;padding:46px 0 0;background:url(../images/separator.jpg) 50% 0 no-repeat;border:none;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;}
 .intro .actions .btn		{margin:0 10px;}
@@ -523,7 +530,7 @@ blockquote i			{position:absolute;top:25px;left:27px;}
 .sidebar .widget .f-row				{padding-bottom:20px;}
 .sidebar .widget .f-row input 			{padding:10px 12px;}
 
-.contact-data	 				{font-size:17px;position:relative;padding:10px 0 10px 35px;white-space:nowrap;}
+.contact-data	 				{font-size:18px;position:relative;padding:10px 0 10px 35px;white-space:nowrap;}
 .contact-data .icon 		{position:absolute;top:9px;left:0;}
 
 .categories					{margin:0;}
@@ -878,6 +885,10 @@ div.radio input 						{opacity: 0;filter: alpha(opacity=0);-moz-opacity: 0;borde
 @media screen and (max-width: 1200px) {
 .wrap 	{width:94%;}
 .main-nav ul > li {padding-left:25px;}
+.imglogo1 {border:0;max-width:100%;vertical-align:middle; height: 150px;   margin-top: 20%;
+    padding-right:17px;
+}
+
 
 .hentry .entry-content p {height:47px;overflow:hidden;}
 .single .entry-content p {height:auto;}
@@ -902,10 +913,13 @@ div.radio input 						{opacity: 0;filter: alpha(opacity=0);-moz-opacity: 0;borde
 @media screen and (max-width: 1040px) {
 .header			{height:auto;min-height:70px;}
 .header .wrap	{height:auto;}
-.logo			{float:left;width:100%;display:block;padding:6px 0;}
+.logo			{float:left;width:20%;display:block;padding:6px 0;}
 .main-nav 		{float:left;width:100%;border-top:1px solid #dfdfd0;padding:15px 0;}
 .main-nav ul > li 	{padding:0 25px 0 0;}
 
+.imglogo1 {border:0;max-width:100%;vertical-align:middle; height: 130px;   margin-top: 23%;
+    padding-right:17px;
+}
 
 .advanced-search .form-group.spinner,
 .advanced-search .form-group.radios	 {width:66.6667%;}
@@ -1029,6 +1043,9 @@ div.radio input 						{opacity: 0;filter: alpha(opacity=0);-moz-opacity: 0;borde
 
 .readonly .one-fourth		{width:33.3333%;}
 .readonly .three-fourth		{width:66.6667%;}
+.imglogo1 {border:0;max-width:100%;vertical-align:middle; height: 120px;   margin-top: 26%;
+    padding-right:17px;
+}
 
 .gmap {height:300px;}
 }
@@ -1043,7 +1060,7 @@ div.radio input 						{opacity: 0;filter: alpha(opacity=0);-moz-opacity: 0;borde
 .footer article 			{padding:35px 15px 20px;margin:0;border-bottom:1px solid rgba(0,0,0,.5);-webkit-box-shadow:0 1px 0 rgba(255,255,255,.07);-moz-box-shadow:0 1px 0 rgba(255,255,255,.07);box-shadow:0 1px 0 rgba(255,255,255,.07);}
 
 .animated {-webkit-animation-duration: 0s;animation-duration: 0s;}
-.intro .textwidget 				{padding-top:30%;}
+.intro .textwidget 				{padding-top:1%;}
 .visa{
 	height: 45px;
 	width: 200px;
@@ -1060,6 +1077,10 @@ div.radio input 						{opacity: 0;filter: alpha(opacity=0);-moz-opacity: 0;borde
 	margin-bottom: 30px;
 
  }
+ .imglogo1 {border:0;max-width:100%;vertical-align:middle; height: 90px;   margin-top: 30%;
+    padding-right:17px;
+}
+
 .preloader	{display:none;}
 }
 
@@ -1070,6 +1091,14 @@ div.radio input 						{opacity: 0;filter: alpha(opacity=0);-moz-opacity: 0;borde
 .readonly .one-fourth,
 .readonly .three-fourth			{width:100%;}
 .readonly .one-fourth 			{padding-bottom:0;}
+.experience {
+	font-family: DIN; margin-top: 10px; font-size: 190%; padding: 5px;
+}
+.intro .textwidget 	{padding-top:0%;}
+.imglogo1 {border:0;max-width:100%;vertical-align:middle; height: 80px;   margin-top: 35%;
+    padding-right:17px;
+}
+
 .visa{
 	height: 35px;
 	width: 200px;
@@ -1084,11 +1113,18 @@ div.radio input 						{opacity: 0;filter: alpha(opacity=0);-moz-opacity: 0;borde
 }
 
 @media screen and (max-width: 500px) {
-.intro .textwidget 	{padding-top:50%;}
+	.imglogo1 {border:0;max-width:100%;vertical-align:middle; height: 75px;   margin-top: 36%;
+		padding-right:17px;
+	}
+	
+.intro .textwidget 	{padding-top:0%;}
 .intro .textwidget h1 {font-size:45px;}
 .intro .textwidget h2 {font-size:17px;}
 .intro .btn.large	{font-size:14px;width:46%;margin:0 1%;}
 .advanced-search .form-group.spinner input {width:100%;}
+.experience {
+	font-family: DIN; margin-top: 10px; font-size: 150%; padding: 5px;
+}
 .visa{
 	height: 35px;
 	width: 200px;
@@ -1102,8 +1138,13 @@ div.radio input 						{opacity: 0;filter: alpha(opacity=0);-moz-opacity: 0;borde
 }
 
 @media screen and (max-width: 400px) {
+	.intro .textwidget 	{padding-top:0%;}
+
 .intro .textwidget h1 {font-size:40px;}
 .intro .btn.large	{width:100%;margin:0 0 15px;}
+.experience {
+	font-family: DIN; margin-top: 13px; font-size: 130%; padding: 5px;
+}
 .visa{
 	height: 35px;
 	width: 200px;
@@ -1112,7 +1153,27 @@ div.radio input 						{opacity: 0;filter: alpha(opacity=0);-moz-opacity: 0;borde
 	margin-top: 8px;
 	height: 30px;
 }
+.imglogo1 {border:0;max-width:100%;vertical-align:middle; height: 50px;   margin-top: 48%;
+    padding-right:17px;
+}
+
 .xdsoft_datetimepicker 		{padding-right:0;max-width:100%;}
 .xdsoft_datetimepicker .xdsoft_datepicker	{margin:0;width:100%;}
 .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box {height:116px;}
+}
+@media screen and (max-width: 350px) {
+	.imglogo1 {border:0;max-width:100%;vertical-align:middle; height: 40px;   margin-top: 58%;
+		padding-right:17px;
+	}
+	
+	.experience {
+		font-family: DIN; margin-top: 13px; font-size: 100%; padding: 5px;
+	}
+}
+@media screen and (max-width: 313px) {
+	.imglogo1 {border:0;max-width:100%;vertical-align:middle; height: 40px;}
+
+	.experience {
+		font-family: DIN; margin-top: 13px; font-size: 80%; padding: 5px;
+	}
 }
