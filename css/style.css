@@ -47,6 +47,7 @@ img 			{border:0;max-width:100%;vertical-align:middle; }
     padding-right:17px;
 }
 
+
  .alb{     float: left;
 	min-width: 100%;
 	max-width: 100%;
@@ -73,7 +74,9 @@ ol li 	  			{list-style:decimal outside;padding:0 0 10px 5px;}
 ol ol 			{margin:10px 0 -10px 15px;}
 nav ul 			{margin:0;}
 nav li:before 		{display:none;}
-
+.contact{
+font-size: 25px;
+padding: 0 0 3px}
 p {padding:0 0 17px;}
 
 a 					{text-decoration:none;-webkit-transition:all 0.2s ease-in;-moz-transition:all 0.2s ease-in;-o-transition:all 0.2s ease-in;-ms-transition:all 0.2s ease-in;transition:all 0.2s ease-in;}
@@ -86,7 +89,7 @@ a:active,a:hover 	{outline: 0;}
 .right 		{float:right !important;}
 .center,
 .center .wrap	{text-align:center;}
-
+.Textpadding { padding: 10px 30px;}
 /* 03 TYPOGRAPHY */
 h1,h2,h3,h4,h5,h6,.header,.intro,label,input,textarea,select,table,dl,option,optgroup,.selector,.btn,.f-title,.pager,.contact-data,.categories,.meta,.tabs,.price,.trigger,.close,.output,.xdsoft_datetimepicker,.slicknav_menu,.readonly .f-row,.infoBox, #message,.history > div		 {font-family: 'Montserrat', sans-serif;font-weight:400;}
 
@@ -150,6 +153,15 @@ h6 {font-size:17px;text-transform:uppercase;padding:0 0 23px;}
 .experience {
 	font-family: DIN; margin-top: 10px; font-size: xx-large; padding: 5px;
 }
+.experience1{
+	text-transform: uppercase;
+    position: relative;
+    font-size: 70px;
+    color: #fff;
+    margin-top: 6%;
+    margin-left: 60px;
+
+}
 .header 				{float:left;width:100%;background:#fff;height:75px; }
 .header > .wrap		{display:table;height:80px;}
 .logo					{display:table-cell;vertical-align:middle;padding:8px 0;}
@@ -195,7 +207,7 @@ h6 {font-size:17px;text-transform:uppercase;padding:0 0 23px;}
 
 .services							{float:left;width:100%;}
 .services.boxed article  				{padding:0;}
-.services.boxed .details						{text-align:left;padding:25px 30px;border-right:1px solid #DFDFD0;}
+.services.boxed .details						{text-align:left;padding:25px 20px;border-right:1px solid #DFDFD0;}
 .services.boxed article:last-child .details 	{border:none;}
 .services.boxed .details h4					{text-transform:uppercase;}
 .services.boxed .details h4 a 					{color:#191F26;}
@@ -224,7 +236,6 @@ h6 {font-size:17px;text-transform:uppercase;padding:0 0 23px;}
 	height: 50px;
 }
 
-.testimonials h6			{text-transform:uppercase;position:relative;font-size:39px;color:#fff;}
 .testimonials h6:before	{content:"";width:41px;height:29px;}
 .testimonials p 			{padding:0 20% 30px;font-size:16px;font-weight:500;color:#fff;}
 .testimonials .meta 		{font-size:16px;}
@@ -597,7 +608,7 @@ input[type=number]::-webkit-outer-spin-button {-webkit-appearance: none; margin:
 input[type=number] {-moz-appearance: textfield;}
 
 textarea		{resize: none;height:235px;}
-select 		{padding:12px 15px;width:100%;line-height:1;color:#34394A;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;border:1px solid #DFDFD0;}
+select 		{padding:12px 15px;width:100%;line-height:1;color:#34394A;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;border:1px solid #DFDFD0; background-color: white;}
 optgroup		{font-style:normal;text-transform:uppercase;color:#191f26;}
 optgroup:before {content: attr(label);display: block;padding:10px 0 5px;}
 option		{font-size:13px;color:#34394A;}
@@ -888,7 +899,15 @@ div.radio input 						{opacity: 0;filter: alpha(opacity=0);-moz-opacity: 0;borde
 .imglogo1 {border:0;max-width:100%;vertical-align:middle; height: 150px;   margin-top: 20%;
     padding-right:17px;
 }
+.experience1{
+	text-transform: uppercase;
+    position: relative;
+    font-size: 65px;
+    color: #fff;
+    margin-top: 5%;
+    margin-left: 60px;
 
+}
 
 .hentry .entry-content p {height:47px;overflow:hidden;}
 .single .entry-content p {height:auto;}
@@ -914,13 +933,22 @@ div.radio input 						{opacity: 0;filter: alpha(opacity=0);-moz-opacity: 0;borde
 .header			{height:auto;min-height:70px;}
 .header .wrap	{height:auto;}
 .logo			{float:left;width:20%;display:block;padding:6px 0;}
-.main-nav 		{float:left;width:100%;border-top:1px solid #dfdfd0;padding:15px 0;}
+.main-nav 		{float:left;width:100%;border-top:1px solid #dfdfd0;padding:10px 0;}
 .main-nav ul > li 	{padding:0 25px 0 0;}
+.services.boxed .details						{text-align:left;padding:25px 20px;border-right:1px solid #DFDFD0;}
 
 .imglogo1 {border:0;max-width:100%;vertical-align:middle; height: 130px;   margin-top: 23%;
     padding-right:17px;
 }
+.experience1{
+	text-transform: uppercase;
+    position: relative;
+    font-size: 60px;
+    color: #fff;
+    margin-top: 5%;
+    margin-left: 60px;
 
+}
 .advanced-search .form-group.spinner,
 .advanced-search .form-group.radios	 {width:66.6667%;}
 .advanced-search .form-group.radios 	{padding-top:20px;}
@@ -965,6 +993,16 @@ div.radio input 						{opacity: 0;filter: alpha(opacity=0);-moz-opacity: 0;borde
 .visa{
 	height: 45px;
 	width: 200px;
+}
+.services.boxed .details						{text-align:left;padding:25px 20px;border-right:1px solid #DFDFD0;}
+.experience1{
+	text-transform: uppercase;
+    position: relative;
+    font-size: 50px;
+    color: #fff;
+    margin-top: 6%;
+    margin-left: 40px;
+
 }
 .twint{
 	margin-top: 12px;
@@ -1065,6 +1103,15 @@ div.radio input 						{opacity: 0;filter: alpha(opacity=0);-moz-opacity: 0;borde
 	height: 45px;
 	width: 200px;
 }
+.experience1{
+	text-transform: uppercase;
+    position: relative;
+    font-size: 47px;
+    color: #fff;
+    margin-top:8%;
+    margin-left: 30px;
+
+}
 .twint{
 	margin-top: 12px;
 
@@ -1093,6 +1140,15 @@ div.radio input 						{opacity: 0;filter: alpha(opacity=0);-moz-opacity: 0;borde
 .readonly .one-fourth 			{padding-bottom:0;}
 .experience {
 	font-family: DIN; margin-top: 10px; font-size: 190%; padding: 5px;
+}
+.experience1{
+	text-transform: uppercase;
+    position: relative;
+    font-size: 38px;
+    color: #fff;
+    margin-top:8%;
+    margin-left: 20px;
+
 }
 .intro .textwidget 	{padding-top:0%;}
 .imglogo1 {border:0;max-width:100%;vertical-align:middle; height: 80px;   margin-top: 35%;
@@ -1125,6 +1181,15 @@ div.radio input 						{opacity: 0;filter: alpha(opacity=0);-moz-opacity: 0;borde
 .experience {
 	font-family: DIN; margin-top: 10px; font-size: 150%; padding: 5px;
 }
+.experience1{
+	text-transform: uppercase;
+    position: relative;
+    font-size: 35px;
+    color: #fff;
+    margin-top:8%;
+    margin-left: 0px;
+
+}
 .visa{
 	height: 35px;
 	width: 200px;
@@ -1144,6 +1209,15 @@ div.radio input 						{opacity: 0;filter: alpha(opacity=0);-moz-opacity: 0;borde
 .intro .btn.large	{width:100%;margin:0 0 15px;}
 .experience {
 	font-family: DIN; margin-top: 13px; font-size: 130%; padding: 5px;
+}
+.experience1{
+	text-transform: uppercase;
+    position: relative;
+    font-size: 35px;
+    color: #fff;
+    margin-top:8%;
+    margin-left: 10px;
+
 }
 .visa{
 	height: 35px;
@@ -1165,14 +1239,30 @@ div.radio input 						{opacity: 0;filter: alpha(opacity=0);-moz-opacity: 0;borde
 	.imglogo1 {border:0;max-width:100%;vertical-align:middle; height: 40px;   margin-top: 58%;
 		padding-right:17px;
 	}
+	.experience1{
+		text-transform: uppercase;
+		position: relative;
+		font-size: 35px;
+		color: #fff;
+		margin-top:8%;
+		margin-left: 10px;
 	
+	}
 	.experience {
 		font-family: DIN; margin-top: 13px; font-size: 100%; padding: 5px;
 	}
 }
 @media screen and (max-width: 313px) {
 	.imglogo1 {border:0;max-width:100%;vertical-align:middle; height: 40px;}
-
+	.experience1{
+		text-transform: uppercase;
+		position: relative;
+		font-size: 35px;
+		color: #fff;
+		margin-top:8%;
+		margin-left: 10px;
+	
+	}
 	.experience {
 		font-family: DIN; margin-top: 13px; font-size: 80%; padding: 5px;
 	}
